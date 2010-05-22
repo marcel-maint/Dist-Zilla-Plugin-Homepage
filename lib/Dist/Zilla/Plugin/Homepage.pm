@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::Homepage;
 
-# ABSTRACT: automatically sets the homepage URL
+# ABSTRACT: Automatically sets the homepage URL
 use Moose;
 with 'Dist::Zilla::Role::MetaProvider';
 
