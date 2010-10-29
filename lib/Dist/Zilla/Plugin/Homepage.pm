@@ -21,11 +21,13 @@ __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
 
-=pod
+=begin :prelude
 
 =for test_synopsis
 1;
 __END__
+
+=end :prelude
 
 =head1 SYNOPSIS
 
@@ -37,6 +39,6 @@ In C<dist.ini>:
 
 This plugin sets the distribution's homepage URL as metadata.
 
-=function metadata
+=method metadata
 
 Sets the homepage URL in the distribution's metadata.
